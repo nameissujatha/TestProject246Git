@@ -14,5 +14,6 @@ public class NewTestSample {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
 		driver.get("https://ui.freecrm.com");
-  }
+		System.out.println("Testing maven and github");
+		}
 }
